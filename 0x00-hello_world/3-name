@@ -1,0 +1,5 @@
+#!/bin/bash
+# script that compiles a ruby file a redirect the result in other file.
+
+export RUBYFILE="name.rb"
+ruby $RUBYFILE > name.txt
